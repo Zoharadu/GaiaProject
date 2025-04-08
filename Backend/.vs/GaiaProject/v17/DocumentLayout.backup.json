@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B67DD70-CFFC-4C00-8E73-62A1B18F8A05}|GaiaProject\\GaiaProject.csproj|c:\\users\\zohar\\desktop\\gaiaproject\\gaiaproject\\gaiaproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B67DD70-CFFC-4C00-8E73-62A1B18F8A05}|GaiaProject\\GaiaProject.csproj|solutionrelative:gaiaproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1D08B5-4544-4A19-8401-060970D58B31}|GaiaDB\\GaiaDB.csproj|c:\\users\\zohar\\desktop\\gaiaproject\\gaiaproject\\gaiadb\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1D08B5-4544-4A19-8401-060970D58B31}|GaiaDB\\GaiaDB.csproj|solutionrelative:gaiadb\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 140,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaProject\\Program.cs",
+              "RelativeDocumentMoniker": "GaiaProject\\Program.cs",
+              "ToolTip": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaProject\\Program.cs*",
+              "RelativeToolTip": "GaiaProject\\Program.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:11:39.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaDB\\DbContext.cs",
+              "RelativeDocumentMoniker": "GaiaDB\\DbContext.cs",
+              "ToolTip": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaDB\\DbContext.cs",
+              "RelativeToolTip": "GaiaDB\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:07:57.602Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\bin\Debug\net8.0\GaiaDB.deps.json
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\bin\Debug\net8.0\GaiaDB.dll
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\bin\Debug\net8.0\GaiaDB.pdb
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\bin\Debug\net8.0\Common.dll
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\bin\Debug\net8.0\Common.pdb
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\GaiaDB.csproj.AssemblyReference.cache
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\GaiaDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\GaiaDB.AssemblyInfoInputs.cache
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\GaiaDB.AssemblyInfo.cs
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\GaiaDB.csproj.CoreCompileInputs.cache
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\GaiaDB.csproj.Up2Date
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\GaiaDB.dll
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\refint\GaiaDB.dll
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\GaiaDB.pdb
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\ref\GaiaDB.dll
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\bin\Debug\net8.0\GaiaDB.runtimeconfig.json
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\GaiaDB\obj\Debug\net8.0\GaiaDB.genruntimeconfig.cache

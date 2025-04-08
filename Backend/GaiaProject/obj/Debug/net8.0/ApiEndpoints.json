@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "GaiaProject.Controllers.GaiaProject",
+    "Method": "Calculate",
+    "RelativePath": "api/GaiaProject/calculate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Common.OperationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GaiaProject.Controllers.GaiaProject",
+    "Method": "GetSupportedOperations",
+    "RelativePath": "api/GaiaProject/supported-operations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
