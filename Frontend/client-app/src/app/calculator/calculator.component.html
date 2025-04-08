@@ -1,0 +1,26 @@
+<h2>מחשבון פעולות</h2>
+
+<form (ngSubmit)="calculate()" #calcForm="ngForm">
+  <label>מספר ראשון:</label>
+  <input type="number" name="a" [(ngModel)]="a" required>
+
+  <br />
+
+  <label>מספר שני:</label>
+  <input type="number" name="b" [(ngModel)]="b" required>
+
+  <br />
+
+  <label>בחר פעולה:</label>
+  <select name="operator" [(ngModel)]="operator" required>
+    <option *ngFor="let op of operations" [value]="op">{{ op }}</option>
+  </select>
+
+  <br /><br />
+
+  <button type="submit">חשב</button>
+</form>
+
+<div *ngIf="result !== null">
+  <h3>תוצאה: {{ result }}</h3>
+</div>
