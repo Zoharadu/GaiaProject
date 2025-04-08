@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Repository\\Repository.csproj": {}
+    "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Common\\Common.csproj": {
+    "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\zohar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Common\\obj\\",
+        "outputPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaDB\\GaiaDB.csproj": {
+    "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaDB\\GaiaDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaDB\\GaiaDB.csproj",
+        "projectUniqueName": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaDB\\GaiaDB.csproj",
         "projectName": "GaiaDB",
-        "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaDB\\GaiaDB.csproj",
+        "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaDB\\GaiaDB.csproj",
         "packagesPath": "C:\\Users\\zohar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaDB\\obj\\",
+        "outputPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Common\\Common.csproj"
+              "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Common\\Common.csproj"
               }
             }
           }
@@ -154,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Repository\\Repository.csproj": {
+    "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\zohar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -183,11 +183,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Common\\Common.csproj"
+              "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Common\\Common.csproj"
               },
-              "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaDB\\GaiaDB.csproj": {
-                "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaDB\\GaiaDB.csproj"
+              "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaDB\\GaiaDB.csproj": {
+                "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaDB\\GaiaDB.csproj"
               }
             }
           }

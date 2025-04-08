@@ -9,3 +9,15 @@ C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Common\obj\Debug\net8.0\Common.dl
 C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Common\obj\Debug\net8.0\refint\Common.dll
 C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Common\obj\Debug\net8.0\Common.pdb
 C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Common\obj\Debug\net8.0\ref\Common.dll
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\bin\Debug\net8.0\Common.dll
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\obj\Debug\net8.0\Common.sourcelink.json
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\obj\Debug\net8.0\Common.dll
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\zohar\Desktop\GaiaProject\GaiaProject\Backend\Common\obj\Debug\net8.0\ref\Common.dll

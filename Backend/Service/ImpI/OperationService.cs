@@ -1,45 +1,52 @@
 ﻿using Common;
 using Repository.Interface;
 using Service.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static Common.OperationRequest;
 
-namespace Service.ImpI
+public class OperationService : IOperationService
 {
-    public class OperationService : IOperationService
+    private readonly IOperationRepository _repository;
+
+    // מילון של פעולות נתמך
+    private readonly Dictionary<string, Func<double, double, double>> _operations = new()
     {
-        private readonly IOperationRepository _repository;
-
-        public OperationService(IOperationRepository repository)
-        {
-            _repository = repository;
-        }
-
-        public async Task<OperationResult> CalculateAsync(OperationRequest request)
-        {
-            double result = request.Operator switch
+        { "add", (a, b) => a + b },
+        { "subtract", (a, b) => a - b },
+        { "multiply", (a, b) => a * b },
+        { "www", (a, b) => a * b },
+        { "divide", (a, b) =>
             {
-                "add" => request.A + request.B,
-                "subtract" => request.A - request.B,
-                "multiply" => request.A * request.B,
-                "divide" => request.B != 0 ? request.A / request.B : throw new DivideByZeroException(),
-                _ => throw new ArgumentException("Unknown operation")
-            };
-
-            request.Result = result;
-            request.Timestamp = DateTime.Now;
-
-            await _repository.SaveOperationAsync(request);
-
-            return new OperationResult { Result = result };
+                if (b == 0) throw new DivideByZeroException();
+                return a / b;
+            }
         }
-        public async Task<List<string>> GetSupportedOperationsAsync()
+    };
+
+    public OperationService(IOperationRepository repository)
+    {
+        _repository = repository;
+    }
+
+    public async Task<OperationResult> CalculateAsync(OperationRequest request)
+    {
+        if (!_operations.TryGetValue(request.Operator, out var operation))
         {
-            return await _repository.GetSupportedOperationsAsync();
+            throw new ArgumentException($"Unsupported operation: {request.Operator}");
         }
+
+        double result = operation(request.A, request.B);
+
+        request.Result = result;
+        request.Timestamp = DateTime.Now;
+
+        await _repository.SaveOperationAsync(request);
+
+        return new OperationResult { Result = result };
+    }
+
+    public async Task<List<string>> GetSupportedOperationsAsync()
+    {
+        // כאן אפשר להחזיר מהמילון או מהדאטהבייס
+        return await Task.FromResult(_operations.Keys.ToList());
     }
 }

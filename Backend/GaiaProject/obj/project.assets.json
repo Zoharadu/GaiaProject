@@ -4534,11 +4534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaProject\\GaiaProject.csproj",
+      "projectUniqueName": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaProject\\GaiaProject.csproj",
       "projectName": "GaiaProject",
-      "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaProject\\GaiaProject.csproj",
+      "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaProject\\GaiaProject.csproj",
       "packagesPath": "C:\\Users\\zohar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaProject\\obj\\",
+      "outputPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4560,14 +4560,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaDB\\GaiaDB.csproj": {
-              "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\GaiaDB\\GaiaDB.csproj"
+            "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaDB\\GaiaDB.csproj": {
+              "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\GaiaDB\\GaiaDB.csproj"
             },
-            "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Repository\\Repository.csproj"
+            "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Repository\\Repository.csproj"
             },
-            "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Service\\Service.csproj"
+            "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Service\\Service.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gbGIFfth/nM=",
+  "dgSpecHash": "Q73s1hLvUqU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\zohar\\Desktop\\GaiaProject\\GaiaProject\\Backend\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zohar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\zohar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
