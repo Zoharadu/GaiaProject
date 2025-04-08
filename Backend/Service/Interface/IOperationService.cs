@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Common.OperationRequest;
+using static Common.OperationResult;
 
 namespace Service.Interface
 {

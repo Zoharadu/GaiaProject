@@ -11,5 +11,7 @@ namespace Repository.Interface
     {
         Task SaveOperationAsync(OperationRequest operation);
         Task<List<string>> GetSupportedOperationsAsync();
+        Task<List<OperationRequest>> GetLastThreeOperationsAsync(string operationType);
+        Task<int> GetOperationsCountThisMonthAsync(string operationType);
     }
 }

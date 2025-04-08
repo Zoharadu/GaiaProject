@@ -1,26 +1,33 @@
-<h2>מחשבון פעולות</h2>
+<h2>Operations Calculator</h2>
 
 <form (ngSubmit)="calculate()" #calcForm="ngForm">
-  <label>מספר ראשון:</label>
+  <label>First Number:</label>
   <input type="number" name="a" [(ngModel)]="a" required>
 
   <br />
 
-  <label>מספר שני:</label>
+  <label>Second Number:</label>
   <input type="number" name="b" [(ngModel)]="b" required>
 
   <br />
 
-  <label>בחר פעולה:</label>
+  <label>Select Operation:</label>
   <select name="operator" [(ngModel)]="operator" required>
     <option *ngFor="let op of operations" [value]="op">{{ op }}</option>
   </select>
 
   <br /><br />
 
-  <button type="submit">חשב</button>
+  <button type="submit">Calculate</button>
 </form>
 
-<div *ngIf="result !== null">
-  <h3>תוצאה: {{ result }}</h3>
+<div *ngIf="operationResult">
+  <h3>Result: {{ operationResult.result }}</h3>
+  <h4>Last Three Operations of the Same Type:</h4>
+  <ul>
+    <li *ngFor="let op of operationResult.lastThreeOperations">
+      {{ op.a }} {{ op.operator }} {{ op.b }} = {{ op.result }}
+    </li>
+  </ul>
+  <p>Number of Operations of This Type Since the Beginning of the Current Month: {{ operationResult.operationsCountThisMonth }}</p>
 </div>

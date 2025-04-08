@@ -1,19 +1,16 @@
 ﻿using Common;
 using Repository.Interface;
 using Service.Interface;
-using static Common.OperationRequest;
 
 public class OperationService : IOperationService
 {
     private readonly IOperationRepository _repository;
 
-    // מילון של פעולות נתמך
     private readonly Dictionary<string, Func<double, double, double>> _operations = new()
     {
         { "add", (a, b) => a + b },
         { "subtract", (a, b) => a - b },
         { "multiply", (a, b) => a * b },
-        { "www", (a, b) => a * b },
         { "divide", (a, b) =>
             {
                 if (b == 0) throw new DivideByZeroException();
@@ -41,12 +38,19 @@ public class OperationService : IOperationService
 
         await _repository.SaveOperationAsync(request);
 
-        return new OperationResult { Result = result };
+        var lastThreeOperations = await _repository.GetLastThreeOperationsAsync(request.Operator);
+        var operationsCountThisMonth = await _repository.GetOperationsCountThisMonthAsync(request.Operator);
+
+        return new OperationResult
+        {
+            Result = result,
+            LastThreeOperations = lastThreeOperations,
+            OperationsCountThisMonth = operationsCountThisMonth
+        };
     }
 
     public async Task<List<string>> GetSupportedOperationsAsync()
     {
-        // כאן אפשר להחזיר מהמילון או מהדאטהבייס
         return await Task.FromResult(_operations.Keys.ToList());
     }
 }

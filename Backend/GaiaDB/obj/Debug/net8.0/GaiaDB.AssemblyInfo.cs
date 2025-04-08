@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GaiaDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1eb8ffade42f391c067ba00c57a4dc08aaece8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7542c8ab306b30cfd80ee6f6cfdaeafecdf3982a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GaiaDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GaiaDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

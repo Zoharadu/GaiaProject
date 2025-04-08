@@ -1,5 +1,6 @@
 ﻿using Common;
 using Data;
+using Microsoft.EntityFrameworkCore;
 using Repository.Interface;
 using System;
 using System.Collections.Generic;
@@ -38,5 +39,23 @@ namespace Repository.ImpI
             var operations = new List<string> { "add", "subtract", "multiply", "divide" };
             return await Task.FromResult(operations);
         }
+
+        public async Task<List<OperationRequest>> GetLastThreeOperationsAsync(string operationType)
+        {
+            return await _context.Operations
+                .Where(op => op.Operator == operationType)
+                .OrderByDescending(op => op.Timestamp)
+                .Take(3)
+                .ToListAsync();
+        }
+
+        public async Task<int> GetOperationsCountThisMonthAsync(string operationType)
+        {
+            var startOfMonth = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+            return await _context.Operations
+                .Where(op => op.Operator == operationType && op.Timestamp >= startOfMonth)
+                .CountAsync();
+        }
     }
 }
+
